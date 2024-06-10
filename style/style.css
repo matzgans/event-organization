@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #800080, #ff69b4);
+  color: white;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav .home {
+  color: #ff69b4;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.hero {
+  background-image: url("../assets/images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: brightness(0.7);
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin: 0;
+  background-image: linear-gradient(to right, #800080, #ff69b4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-shadow: 2px 2px gray;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content .container h3 {
+  background-image: linear-gradient(to right, #800080, #ff69b4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.content .container p {
+  text-align: justify;
+  color: blueviolet;
+}
+
+.content .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.content .container .more a {
+  text-decoration: none;
+  color: #800080;
+}
+.content .container .more a:hover {
+  color: #a657a6;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative; /* Tambahkan ini */
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.more {
+  position: absolute; /* Tambahkan ini */
+  bottom: 20px; /* Sesuaikan nilai ini dengan padding kartu */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.table-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #800080;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.about-section,
+.testimonial-section,
+.sponsor-section {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.testimonial {
+  text-align: center;
+  margin: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial h4 {
+  margin-top: 10px;
+  color: #800080;
+}
+
+.sponsor-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sponsor-section img {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}

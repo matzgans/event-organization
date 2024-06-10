@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #800080, #ff69b4);
+  color: white;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #ff69b4;
+  color: black;
+}
+
+nav .event {
+  color: #ff69b4;
+}
+
+.hero {
+  background-image: url("../assets/images/vasily-koloda-8CqDvPuo_kI-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  backdrop-filter: brightness(0.7);
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin: 0;
+  background-image: linear-gradient(to right, #800080, #ff69b4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-shadow: 2px 2px gray;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content .container h3 {
+  background-image: linear-gradient(to right, #800080, #ff69b4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.content .container p {
+  text-align: justify;
+  color: blueviolet;
+}
+
+.content .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.content .container .more a {
+  text-decoration: none;
+  color: #800080;
+}
+.content .container .more a:hover {
+  color: #a657a6;
+}
+
+.content .button {
+  display: flex;
+  justify-content: center;
+}
+.content .button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 300px;
+  height: 40px;
+  background-color: #a657a6;
+  margin: 0px 4px;
+  text-decoration: none;
+  text-wrap: nowrap;
+  border-radius: 25px;
+}
+.content .button a:hover {
+  background-color: #ff69b4;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 30%;
+  border-radius: 10px;
+}
+.card .card-info {
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+
+.card .card-info .icon {
+  display: flex;
+  justify-content: center;
+}
+.card .card-info .icon div {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  color: #ff69b4;
+}
+
+.card .card-info .icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
